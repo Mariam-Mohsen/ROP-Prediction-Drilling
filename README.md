@@ -16,7 +16,7 @@ In the oil and gas industry, optimizing the **Rate of Penetration (ROP)** is cri
 
 ## The Dataiku Flow
 This project utilizes the full **Dataiku DSS** suite to manage the data lifecycle. 
-*![Alternative Text](images/flow.png)*
+![Alternative Text](images/flow.png)
 * **Data Integration:** Cleaning and joining diverse drilling datasets.
 * **Feature Engineering:** Creating rolling averages and lagged features to capture the temporal nature of drilling.
 * **Automated ML (AutoML):** Benchmarking multiple algorithms (Random Forest, XGBoost) to find the most accurate predictor.
@@ -25,7 +25,7 @@ This project utilizes the full **Dataiku DSS** suite to manage the data lifecycl
 
 ## Analytics & Dashboards
 The final output of this project was an interactive dashboard designed for drilling engineers to monitor predicted vs. actual performance.
- *![Alternative Text](images/dashboard.png)*
+ ![Alternative Text](images/dashboard.png)
 * **Key Metrics:** R2 Score, RMSE, and Feature Importance (Explainable AI).
 * **Real-time Monitoring:** Visualization of parameter sensitivities to identify which factors (Weight on Bit, RPM, etc.) most influence ROP.
 
